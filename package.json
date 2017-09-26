@@ -1,0 +1,17 @@
+{
+  "name": "it_web",
+  "version": "0.0.1",
+  "description": "My website",
+  "main": "app.js",
+  "dependencies": {
+    "chance": "^1.0.11",
+    "body-parser": "^1.18.1",
+    "express": "^4.15.4"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Nico Hickman",
+  "license": "ISC"
+}

@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>NicoHQ Computer Services</title>
+  <link href="./resources/css/reset.css" type="text/css" rel="stylesheet" />
+  <link href="./resources/css/style.css" type="text/css" rel="stylesheet" />
+  <link href="https://fonts.googleapis.com/css?family=Fira+Sans:300,800" rel="stylesheet">
+</head>
+<body>
+  <header>
+    <div class="container">
+      <div class="desktop">
+        <a href="./index.html">
+        <span><span class="bold-type">Nico</span>HQ</span>
+        </a>
+      </div>
+      <nav class="desktop">
+        <ul>
+          <li><a href="./form.html">Request a Job</a></li>
+          <li><a href="./testimonials.html">Testimonials</a></li>
+          <li><a href="./services.html">Services Offered</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+<div class="main-content" id="formcontainer">
+  <h1 class ="form-head">Request A Job</h1><br>
+  <div class="banner-container" id="form-container">
+    <div class="request-form" id="request">
+      <form action="/job" method="post" id="formForm">
+        <p>
+          <label>Name:</label>
+          <input type="text" name="name" class="form-input"><br>
+        </p>
+        <p>
+          <label>Phone number*:</label>
+          <input type="tel" name="phone" class="form-input"><br>
+        </p>
+        <p>
+          <label>Email*:</label>
+          <input type="email" name="email" class="form-input"><br>
+        </p>
+        <p>
+        <label>Type of Service:</label>
+        <select form="formForm" class="form-input" name="type">
+          <option value="physical">Physical Computer Repair</option>
+          <option value="virus">Virus Removal</option>
+          <option value="os">Operating System Install or Reinstall</option>
+          <option value="build">Custom-Built Computer</option>
+          <option value="other">Other</option>
+        </select>
+        </p>
+        <p>
+        <label>Description:</label>
+        <textarea rows="5" cols="40" class="form-input" form="formForm" name="description"></textarea>
+        </p>
+        <p>
+          <label> </label>
+        <input type="submit" value="Submit">
+        </p>
+        <span id ="notice">
+          *Please enter one by which you can be reliably contacted.
+        </span>
+      </form>
+    </div>
+    <div class="start-container">
+      <h1>Rates</h1>
+      <h3>$30 for the first half-hour, with an additional cost of $20/hour after that.</h3><br>
+      <h3>Considering Best Buy's Geek Squad will charge you $300 just for virus removal, that's a steal!</h3>
+      <a href="./services.html" class="button">Services offered</a>
+    </div>
+  </div>
+
+
+ <footer>
+    <div class="container">
+      <div class="desktop">
+        <span>&copy; NicoHQ Computer Services. All rights reserved.</span>
+      </div>
+      <nav class="desktop">
+        <ul>
+          <li><a href="#">Terms</a></li>
+          <li><a href="#">Privacy</a></li>
+        </ul>
+      </nav>
+    </div>
+  </footer>
+</div>
+</body>
+</html>
